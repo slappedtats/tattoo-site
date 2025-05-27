@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Appointment</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body class="bg-black text-white">
+
+  <!-- 🔝 Sticky Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-black shadow-md">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-lg font-bold tracking-wide">ENOSH</div>
+      <nav class="space-x-4 text-sm font-medium">
+        <a href="index.html" class="hover:text-gray-300">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 📅 Calendly Booking Section -->
+  <main class="max-w-4xl mx-auto px-6 pt-24 pb-10">
+    <h2 class="text-2xl font-semibold text-center mb-6 tracking-widest">Book a Session</h2>
+    <div class="calendly-inline-widget bg-white rounded-md overflow-hidden"
+      data-url="https://calendly.com/slappedtats/30min"
+      style="min-width:320px;height:700px;">
+    </div>
+  </main>
+
+</body>
+</html>
